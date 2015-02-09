@@ -1,0 +1,26 @@
+
+
+@mixin transform($value){
+    -ms-transform: $value; /* IE 9 */
+    -webkit-transform: $value; /* Chrome, Safari, Opera */
+    transform: $value;
+}
+@mixin transition($value){
+    -webkit-transition: $value; /* For Safari 3.1 to 6.0 */
+    transition: $value;
+}
+@mixin transition-delay($value){
+    -webkit-transition-delay: $value; /* For Safari 3.1 to 6.0 */
+    transition-delay: $value;
+}
+@mixin animation($value){
+    -webkit-animation: $value; /* Safari 4+ */
+    -moz-animation:    $value; /* Fx 5+ */
+    -o-animation:      $value; /* Opera 12+ */
+    animation:         $value; /* IE 10+, Fx 29+ */
+}
+
+
+$grey: #B1B2B6;
+$grey-dark: #2E2C2D;
+
